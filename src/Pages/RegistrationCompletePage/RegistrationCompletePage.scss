@@ -1,0 +1,102 @@
+.container {
+  text-align: center;
+  padding-bottom: 25%;
+}
+
+.header {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.centerAndWrap {
+   display: inline-flex;
+   .diviner {
+    position: relative;
+    background: #FFFFFF;
+    height: 30px;
+    width: 35px;
+    margin: auto;
+    padding-top: 5px;
+    div {
+      color: #6bb394;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+
+.appCode {
+  padding: 20px 60px 20px 30px;
+  background: #ECEEEF;
+  float: left;
+  margin-right: -20px;
+  div {
+    padding-top: 20px;
+    div {
+      background: #FFFFFF;
+      padding: 10px;
+    }
+  }
+}
+
+.QRCode {
+  padding: 20px 30px 10px 30px;
+  background: #535353;
+  float: left;
+  margin-left: -15px;
+  h2 {
+    color: #FFFFFF;
+  }
+  .content{
+    background: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+  }
+  .alignRight {
+    padding-top: 10px;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .centerAndWrap {
+    display: grid;
+    width: 50%;
+    min-width: 300px;
+    margin: auto;
+ }
+ 
+ .appCode {
+  width: 100%;
+  padding: 20px 30px 30px 30px;
+  background: #ECEEEF;
+  margin-bottom: -15px;
+ }
+
+ .diviner {
+  div {
+    position: absolute;
+    background: #FFFFFF;
+    height: 30px;
+    width: 35px;
+    margin: auto;
+    padding-top: 5px;
+  }
+}
+ 
+ .QRCode {
+  width: 100%;
+  padding: 20px 30px 10px 30px;
+  background: #535353;
+  margin-left: 0;
+  margin-top: -15px;
+ }
+}
+
+

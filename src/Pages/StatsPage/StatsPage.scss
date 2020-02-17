@@ -1,0 +1,202 @@
+.header {
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #21283d;
+  margin-bottom: 20px !important;
+  }
+
+  .paddingStyle {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .selectionRoot {
+    width: 200px;
+    padding: 'inherit';
+  }
+
+  .autoWidth{
+    width: 'auto';
+  }
+
+  .marginTop{
+    margin-top : 30px;
+  }
+
+  .alignRight {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .lrMargin{
+    margin-left : 10px;
+    margin-right : 10px;
+  }
+
+  .main{
+    width : 80%;
+    margin : 0 auto;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main>.columnData{
+    //   min-width: 350px;
+      min-width : 450px;
+      margin-bottom: 10px;
+      border: 1px solid #CACED5;
+      padding: 10px;
+  }
+
+  .main>.columnForms{
+    width : 200px;
+  }
+
+  .tableHeader {
+    background-color : #6bb394 !important;
+    color : #fff !important;
+  }
+
+  .cellStyle {
+    max-width : 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .main{
+      width : 100%;
+      padding-bottom: 100px;
+    }
+    .main>.columnForms{
+      width : 450px;
+    }
+
+    .main>.columnForms .selectionRoot{
+      margin : 20px auto;
+    }
+
+    .main>.columnData{
+        min-width : auto;
+        max-width : 95%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .horizontalScroll {
+        overflow-x: scroll
+    }
+}
+
+.marginAuto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.waitingDataText{
+  font-size: 14px;
+  text-align: center;
+  color: #8798ad;
+}
+
+.marginTop{
+  margin-top: 50px;
+}
+
+.floatLeft{
+  float: left
+}
+
+.averageTime{
+  font-size: 20px;
+}
+
+.averageText{
+  font-size: 12px;
+  color: #8798ad;
+}
+
+.marginRight15{
+  margin-right: 15px;
+}
+
+.marginBottom{
+  margin-bottom: 25px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.fontRoboto{
+  font-family: 'Roboto';
+}
+
+.rect14{
+  width: 14px;
+  height: 10.5px;
+}
+
+.legend{
+  height: 20px;
+  margin-top: 10px;
+}
+
+.displayInlineBlock{
+  display: inline-block;
+}
+
+.marginRight10{
+  margin-right: 10px;
+}
+
+.floatRight{
+  float: right;
+}
+
+.widthMax{
+  width: 100%;
+}
+
+.container{
+  padding: 10px;
+  position: relative;
+}
+
+.positionAbsolute{
+  position: absolute;
+  bottom: 15px;
+}
+
+.marginBottom10{
+  margin-bottom: 10px;
+}
+
+.marginLeft20{
+  margin-left: 20px !important;
+}
+
+.photos {
+  label{
+    color: rgb(105,80,161) !important
+  }
+}
+
+.videos {
+  label{
+    color: rgb(81,191,157) !important
+  }
+}
+
+.audios {
+  label{
+    color: rgb(166,206,57) !important
+  }
+}

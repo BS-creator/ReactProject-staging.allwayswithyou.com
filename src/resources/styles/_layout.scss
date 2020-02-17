@@ -1,0 +1,31 @@
+@function lower-bound($range){
+  @return nth($range, 1);
+}
+
+@function upper-bound($range) {
+  @return nth($range, 2);
+}
+
+// Media Query Ranges
+$xs-range: (0, 575px) !default;
+$sm-range: (576px, 767px) !default;
+$md-range: (768px, 991px) !default;
+$lg-range: (992px, 1199px) !default;
+$xl-range: (1200px, 99999999px) !default;
+
+$screen: "only screen" !default;
+
+$xs-only: "#{$screen} and (max-width: #{upper-bound($xs-range)})" !default;
+$xs-up: $screen !default;
+
+$sm-up: "#{$screen} and (min-width:#{lower-bound($sm-range)})" !default;
+$sm-only: "#{$screen} and (min-width:#{lower-bound($sm-range)}) and (max-width:#{upper-bound($sm-range)})" !default;
+
+$md-up: "#{$screen} and (min-width:#{lower-bound($md-range)})" !default;
+$md-only: "#{$screen} and (min-width:#{lower-bound($md-range)}) and (max-width:#{upper-bound($md-range)})" !default;
+
+$lg-up: "#{$screen} and (min-width:#{lower-bound($lg-range)})" !default;
+$lg-only: "#{$screen} and (min-width:#{lower-bound($lg-range)}) and (max-width:#{upper-bound($lg-range)})" !default;
+
+$xl-up: "#{$screen} and (min-width:#{lower-bound($xl-range)})" !default;
+$xl-only: "#{$screen} and (min-width:#{lower-bound($xl-range)}) and (max-width:#{upper-bound($xl-range)})" !default;

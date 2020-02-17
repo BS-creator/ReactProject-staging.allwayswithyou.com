@@ -1,0 +1,55 @@
+.container{
+    background-color: #ffffff;
+    padding: 5px;
+}
+.marginBottom{
+    margin-bottom: 25px;
+}
+.bold{
+    font-weight: bold;
+}
+.fontRoboto{
+    font-family: 'Roboto';
+}
+.floatLeft{
+    float: left
+}
+.averageTime{
+    font-size: 20px;
+}
+.averageText{
+    font-size: 12px;
+    color: #8798ad;
+}
+.marginRight15{
+    margin-right: 15px;
+}
+.marginLeft20{
+    margin-left: 20px;
+}
+.floatRight{
+    float: right;
+}
+.positionRelative{
+    position: relative;
+}
+.alertIcon{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    :hover{
+        cursor: pointer;
+    }
+}
+.marginAuto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.waitingDataText{
+    font-size: 14px;
+    text-align: center;
+    color: #8798ad;
+}
+.marginTop{
+    margin-top: 50px;
+}

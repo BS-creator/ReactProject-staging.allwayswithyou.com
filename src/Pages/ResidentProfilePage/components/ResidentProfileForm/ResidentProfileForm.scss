@@ -1,0 +1,39 @@
+.paddingSides {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.alignRight {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.displayName {
+  padding: 10px 15px;
+  color: #818a91;
+}
+
+.btnIcon {
+  color : #fff;
+  font-size : 12px;
+}
+
+.skypeId {
+  min-width: 260px;
+}
+
+.disabledLink{
+  cursor: default;
+  color: grey;
+}
+
+.questionField{
+    display : grid;
+    margin-bottom : 1px;
+}

@@ -1,0 +1,78 @@
+.header {
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+
+.paddingSides {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+
+.allUsers {
+  background: #ECEEEF;
+  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.invite {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  div {
+    width: 100%;
+    margin-right: 5px;
+  }
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.progressBar {
+  padding-top: 24px;
+}
+
+.btn {
+  text-align: right;
+  padding-bottom: 24px;
+}
+
+.usersField {
+  .content {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    padding : 15px;
+  }
+  :hover{
+    cursor: pointer;
+  }
+  .selected {
+    background: #FFD679;
+    color: #000000;
+    border-radius: 5px;
+    padding : 15px;
+  }
+}
+
+.paddingUsers{
+  padding-bottom: 5px;
+}
+
+.cancel {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  min-width: 200px;
+}
+
+.removeButton {
+  background: #FFD679!important;
+}
+
+.resendButton {
+  background: #51BF9D!important;
+}

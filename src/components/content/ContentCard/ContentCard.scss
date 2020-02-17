@@ -1,0 +1,85 @@
+.formatMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.defaultContent {
+  background-color: gray;
+  height: 180px;
+  position: relative;
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.info{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.audioFileName{
+  position: absolute;
+  left: 55px;
+  max-width: 165px;
+}
+
+.uploaderPhoto{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  bottom: 10px;
+  right: 14px;
+  img{
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+  }
+}
+
+.albumIcon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  bottom: 10px;
+  left: 14px;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.audioPadding{
+  padding: 20px 10px;
+}
+
+.audioFileNameText{
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 992px) {
+  .audioFileName{
+    max-width: 105px;
+  } 
+}
+
+@media screen and (max-width: 767px) {
+  .audioFileName{
+    max-width: 165px;
+  } 
+}

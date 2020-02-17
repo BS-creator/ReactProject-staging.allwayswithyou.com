@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  allwayswithyou-website:
+    image: ${ALLWAYSWITHYOU_WEBSITE_IMAGE_NAME:-allwayswithyou/website}:${TAG:-latest}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '80:80'

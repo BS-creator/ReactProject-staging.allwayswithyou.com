@@ -1,0 +1,24 @@
+
+@-webkit-keyframes load {
+    0%   { opacity: 0.3; }
+    100% { opacity: 0.8; }
+  }
+@-moz-keyframes load {
+    0%   { opacity: 0.3; }
+    100% { opacity: 0.8; }
+  }
+@-o-keyframes load {
+    0%   { opacity: 0.3; }
+    100% { opacity: 0.8; }
+  }
+@keyframes load {
+    0%   { opacity: 0.3; }
+    100% { opacity: 0.8; }
+  }
+
+.loading{
+    -webkit-animation: load 1.5s infinite; /* Safari 4+ */
+    -moz-animation:    load 1.5s infinite; /* Fx 5+ */
+    -o-animation:      load 1.5s infinite; /* Opera 12+ */
+    animation:         load 1.5s infinite; /* IE 10+, Fx 29+ */
+}

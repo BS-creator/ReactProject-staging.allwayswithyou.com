@@ -1,0 +1,44 @@
+.photosProgressColor {
+  background-color: #6A87FF !important;
+  color: white;
+  text-align: center;
+}
+
+.videosProgressColor {
+  background-color: #4C65CC !important;
+  color: white;
+  text-align: center;
+}
+
+.audiosProgressColor {
+  background-color: #5BC0DE !important;
+  color: white;
+  text-align: center;
+}
+
+.freeProgressColor {
+  background-color: #ECEEEF !important;
+  color: #000000 !important;
+  text-align: center;
+}
+
+.inline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progressBar {
+    overflow: hidden;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-right: 5px;
+    height: 25px !important;
+}
+
+.totalSpace {
+  white-space: nowrap;
+}

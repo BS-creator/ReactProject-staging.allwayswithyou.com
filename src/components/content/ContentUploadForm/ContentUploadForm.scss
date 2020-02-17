@@ -1,0 +1,43 @@
+.displayNone {
+  display: none
+}
+
+.uploadContent {
+  padding-bottom: 24px;
+  .chooseFile {
+    display: inline-block;
+    padding-right: 10px;
+    max-width: 310px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 5px;
+  }
+  .uploading {
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+.upload {
+  margin-top: 5px;
+  width: 100%;
+  div {
+    width: 100%;
+    div {
+      font-size: 12px;
+    }
+  }
+}
+
+.content{
+  margin: 40px 0;
+}
+
+.buttons{
+  text-align: right;
+}
+
+.progressBar{
+  margin: 20px 0;
+}

@@ -1,0 +1,98 @@
+.header {
+  padding-top: 50px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 50px;
+}
+
+
+.customBtn {
+  display: inline-flex;
+  justify-content: center;
+  align-items : center;
+  background: white;
+  width: 100%;
+  height : 48px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px grey;
+  color : #3C4043;
+}
+
+.customBtn:hover {
+  cursor: pointer;
+}
+
+.customBton:focus{
+  box-shadow: 0px 0px 4px lightblue;
+}
+
+.customBtn:active {
+  background: #EAEDED;
+}
+
+.customBtnFacebook{
+  display: inline-flex;
+  justify-content: center;
+  align-items : center;
+  background: #3b5998;
+  width: 100%;
+  height : 48px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px grey;
+  color : white;
+}
+
+.customBtnFacebook:hover {
+  cursor: pointer;
+}
+
+.customBtnFacebook:focus{
+  box-shadow: 0px 0px 4px lightblue;
+}
+
+.customBtnFacebook:active {
+  background: #EAEDED;
+}
+
+.icon {
+  background: rgba(255, 255, 255, 0);
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+  img {
+    width : 100%;
+    height : 100%;
+  }
+}
+
+.facebookIcon {
+  background: rgba(255, 255, 255, 0);
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  margin-left : 6px;
+  img {
+    width : 100%;
+    height : 100%;
+  }
+}
+
+.buttonText {
+  flex-grow : 2;
+  padding-left: 42px;
+  padding-right: 42px;
+  font-size: 19px;
+  font-style: medium;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+@media screen and (max-width: 992px) {
+  .buttonText {
+    flex-grow : none;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+}

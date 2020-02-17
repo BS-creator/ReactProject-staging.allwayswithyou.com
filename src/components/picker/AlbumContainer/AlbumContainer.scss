@@ -1,0 +1,41 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+.content {
+  background: #ECEEEF;
+  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  overflow-y: scroll;
+  height : 380px;
+}
+
+.pickerContainer{
+  height : 500px;
+  padding-top : 15px;
+  padding-left : 15px;
+  padding-right : 15px;
+}
+
+
+.pickerButtonsContainer{
+  margin-top : 6px;
+  text-align : center;
+  vertical-align: center;
+}
+
+.importButton{
+  position : absolute;
+  bottom : 7px;
+  right : 15px;
+}
+
+.pickerCloseButton {
+  position : absolute;
+  top : 11px;
+  right : 11px;
+}

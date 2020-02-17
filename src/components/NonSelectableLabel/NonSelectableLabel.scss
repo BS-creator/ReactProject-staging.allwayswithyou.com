@@ -1,0 +1,17 @@
+.text {
+    display: table-cell;
+    vertical-align: middle; 
+    padding: 7px 14px 7px 14px;
+    border : 1px solid rgba(34,36,38,.15);
+    border-left-color: transparent; 
+    width : 100%;
+    border-top-right-radius: 0.285714rem;
+    border-bottom-right-radius: 0.285714rem; 
+}
+
+.nonSelectable {
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+}

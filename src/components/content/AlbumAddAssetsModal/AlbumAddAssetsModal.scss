@@ -1,0 +1,31 @@
+.dropZone{ 
+    border-style:dashed;
+    border: 3px dashed #C9C9C9;
+    border-radius: 25px; 
+    height: 100px; 
+    width: 498px;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+
+.displayNone {
+    display: none
+}
+
+.importButtonLogo{
+    display : inline-block !important;
+    height : 20px;
+    margin-right:8px;
+}
+
+.importButtonText{
+    font-weight : bold;
+    vertical-align: middle;
+    color: #3C4043;
+}
+
+.verticalAlignMiddle {
+    vertical-align: middle;
+}

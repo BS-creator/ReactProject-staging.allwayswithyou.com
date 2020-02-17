@@ -1,0 +1,227 @@
+.header {
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+
+  div{
+    display: inline-block;
+  }
+}
+
+.defaultContent {
+  min-height: 150px;
+  background: gray;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+.content {
+  background: #ECEEEF;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.contentContainer{
+  max-width: 950px;
+  margin: auto;
+}
+
+.paddingSides {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.progressBar {
+  padding: 24px;
+}
+
+.progress {
+  width: 33.33%;
+  margin: auto;
+}
+
+.btn {
+  text-align: right;
+  padding-bottom: 24px;
+}
+
+.dropdown{
+  width: 290px;
+  margin-right: 20px;
+  div{
+    width: 100%;
+  }
+}
+
+.dropdownEnabled{
+  width: 100%;
+}
+
+.dropdownDisabled{
+  width: 100%;
+}
+
+.columns{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content:space-between;
+  div{
+    display: inline-block;
+  }
+}
+
+.columnsUpload{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content:space-between;
+  div{
+    display: inline-block;
+  }
+}
+
+.upload{
+  margin-right: 30px;
+}
+
+.btnIconRight{
+  margin-left: 5px;
+}
+
+.pickerRoot{
+  position : relative;
+}
+
+
+.customBtn {
+  display: inline-flex;
+  justify-content: center;
+  align-items : center;
+  background: white;
+  width: 300px;
+  height : 45px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.customBtn:hover {
+  cursor: pointer;
+}
+
+.customBton:focus{
+  box-shadow: 0px 0px 4px lightblue;
+}
+
+.customBtn:active {
+  background: #EAEDED;
+}
+
+.icon {
+  background: rgba(255, 255, 255, 0);
+  vertical-align: middle;
+  width: 38px;
+  height: 38px;
+  img {
+    width : 100%;
+    height : 100%;
+  }
+}
+.buttonText {
+  flex-grow : 2;
+  padding-left: 21px;
+  padding-right: 21px;
+  font-size: 14px;
+  font-style: medium;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color : #3C4043;
+}
+
+.customBtnFacebook{
+  display: inline-flex;
+  justify-content: center;
+  align-items : center;
+  background: #3b5998;
+  width: 300px;
+  height : 45px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px grey;
+  color : white;
+}
+
+.customBtnFacebook:hover {
+  cursor: pointer;
+}
+
+.customBtnFacebook:focus{
+  box-shadow: 0px 0px 4px lightblue;
+}
+
+.customBtnFacebook:active {
+  background: #EAEDED;
+}
+
+.facebookIcon {
+  background: rgba(255, 255, 255, 0);
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  margin-left : 6px;
+  img {
+    width : 100%;
+    height : 100%;
+  }
+}
+
+.buttonFacebookText {
+  flex-grow : 2;
+  padding-left: 21px;
+  padding-right: 21px;
+  font-size: 14px;
+  font-style: medium;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color : #fff;
+}
+
+.stickyContent{
+  z-index: 1000;
+  background-color: #fff;
+}
+
+.storageInfo{
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 1200px) {
+  .upload{
+    margin-right: 15px;
+  }
+
+  .rightColumn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .columns{
+    margin-bottom: 20px;
+    display: block;
+    justify-content:space-between;
+    div{
+      display: inline-block;
+    }
+  }
+
+  .columnsUpload{
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    div{
+      display: inline-block;
+    }
+  }
+}

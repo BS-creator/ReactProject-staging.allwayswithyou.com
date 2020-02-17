@@ -1,0 +1,11 @@
+.alignRight {
+  margin-top: auto;
+  margin-bottom: 15px;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 400px){
+  .codeSize{
+      width: 60%;
+  }
+}

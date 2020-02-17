@@ -1,0 +1,60 @@
+.header {
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+
+.paymentDetails {
+  background: #ECEEEF;
+  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 80px;
+}
+
+.QRCode {
+  text-align: center;
+  border: 1px solid #dededf;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.checkbox{
+  width : 18px;
+  height: 18px;
+  border-radius: 2px;
+  margin-top : 10px;
+  margin-right : 5px;
+  margin-left : 5px;
+  display : inline-block;
+}
+
+.alignRight {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.accountButtons{
+  display: block;
+  justify-content:space-between;
+  div{
+    display: inline-block;
+  }
+}
+
+.subscribeLabel{
+    display: inline-block !important; 
+    width: 85%; 
+    margin: 5px;
+}
+
+@media screen and (max-width: 390px){
+  .accountButtons{
+    display: block;
+    justify-content:space-between;
+    div{
+      display: inline-block;
+      margin-top: 2px
+    }
+  }
+}

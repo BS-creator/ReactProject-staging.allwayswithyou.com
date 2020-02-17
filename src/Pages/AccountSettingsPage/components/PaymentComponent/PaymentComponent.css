@@ -1,0 +1,22 @@
+.StripeElement {
+  height: 40px;
+  padding: 10px 12px;
+
+  font-family: Roboto, sans-serif;
+  color: black !important;
+  background-color: white;
+  border: 1px solid rgba(34, 36, 38, .15);
+  border-radius: .28571429rem;
+}
+
+.StripeElement--focus {
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}

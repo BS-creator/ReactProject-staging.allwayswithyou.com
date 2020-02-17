@@ -1,0 +1,60 @@
+.modal{
+    padding: 20px 50px;
+    background: #fff;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: absolute;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.modalNotAdmin{
+    padding: 20px 50px;
+    background: #fff;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: absolute;
+    width: 600px;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.title{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.titleDescriptionAdmin{
+    margin: 10px 0 10px 0;
+}
+
+.titleDescription{
+    margin: 40px 0 30px 0;
+}
+
+.dropdownMargin{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-height: 600px), screen and (max-width: 600px){
+    .modal{
+        padding: 10px 30px;
+        position: absolute;
+        width: 90%;
+        max-width: 600px;
+        top: 50px;
+        transform: translateX(-50%) translateY(0%);
+    }
+
+    .modalNotAdmin{
+        padding: 10px 30px;
+        position: absolute;
+        width: 90%;
+        max-width: 600px;
+        top: 50px;
+        transform: translateX(-50%) translateY(0%);
+    }
+}
